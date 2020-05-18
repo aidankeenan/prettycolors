@@ -1,0 +1,37 @@
+#login, #loggedin {
+  display: none;
+}
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 500px;
+}
+
+.btn-primary
+{
+  margin: auto;
+  color: #e3ded9;
+}
+body 
+{
+    background: linear-gradient(-45deg, #f8b195, #f67280, #c06c84, #675b7b, #355c7d );
+    background-size: 900% 900%;
+    color: #e3ded9;
+    margin: auto;
+    font-family: Bangers;
+    align-content: center;
+}
+
+@keyframes gradient 
+{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

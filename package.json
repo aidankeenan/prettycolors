@@ -1,0 +1,32 @@
+{
+  "name": "authorization_code",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "12.16.x",
+    "npm": "6.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidankeenan/prettyspotifytrial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidankeenan/prettyspotifytrial/issues"
+  },
+  "homepage": "https://github.com/aidankeenan/prettyspotifytrial#readme",
+  "dependencies": {
+    "express": "*",
+    "request": "*",
+    "cors": "*",
+    "querystring": "*",
+    "cookieparser": "*",
+    "cookie-parser": "*"
+  }
+}
+
